@@ -1,3 +1,16 @@
+// Font imports
+@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Syne+Mono&display=swap');
+@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
 :root {
+	// Theme Version
 	--theme-version: '0.0.1';
+
+	// Global Fonts
+	--font-primary: 'Iceland', sans-serif;
+	--font-display: 'Iceland', sans-serif;
+	--font-headline: 'Iceland', sans-serif;
+	--font-code: 'Syne Mono', monospace;
+
+	//discord vars
+	
 }

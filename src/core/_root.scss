@@ -1,6 +1,13 @@
 // The CSS to be included in your .theme.css file.
 // Addon @imports should be placed here.
+/* DO NOT TOUCH THESE IMPORTS!*/
 
+/* THEME SETTINGS */
 :root {
-	--username-colour: red;
+    --GC-accent:       rgba(0, 255, 255, 1);   /*Default Value: 0, 255, 255. GH0STCH4TT3R's Accent color. Will be applied across the entire theme.*/
+    --GC-accent-muted: rgba(0, 120, 120, 0.5); /*Default Value: 0, 120, 120. GH0STCH4TT3R's Muted Accent color. Will be applied across the entire theme.*/
+    /* Uncomment this to have the theme use your system's accent color instead. */
+    /* --GC-accent:        var(--os-accent-color)!important;
+       --GC-accent-muted: rgba($color: var(--os-accent-color), $alpha: 0.5)!important;
+    */
 }
