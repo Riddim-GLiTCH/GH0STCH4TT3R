@@ -1,22 +1,6 @@
-<!DOCTYPE html>
-<html>
-<head>
-  <style>
-    @import url('https://fonts.googleapis.com/css2?family=Iceland&family=Syne+Mono&display=swap');
-    body {
-      font-family: 'Iceland', 'Syne Mono', monospace;
-    }
-    body {
-    background-color: black;
-    }
-  </style>
-</head>
-<body>
-
+![logo](https://github.com/Riddim-GLiTCH/GH0STCH4TT3R/blob/master/assets/logo.png?raw=true)
 # GH0STCH4TT3R
 ## A Futuristic theme with an edgy style
 
-</body>
-</html>
 
 
