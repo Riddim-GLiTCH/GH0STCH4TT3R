@@ -1,4 +1,5 @@
 // This will be used for chat section.
 // Examples being: Messages, chatbox, typing bar, new/old message bars, ect...
 @use './messagebubble';
-@use './chatbar'
+@use './chatbar';
+@use './chatcontent';

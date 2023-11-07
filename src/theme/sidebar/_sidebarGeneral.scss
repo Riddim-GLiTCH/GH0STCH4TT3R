@@ -1,5 +1,5 @@
 .container_de798d {
-    color: var(--GC-accent);
+    color: rgb(var(--GC-accent));
 }
 
 /*! consistent top bar - extends member list !*/
@@ -57,5 +57,10 @@
     height: 25px;
   }
  .item_f9d377, .unread__48cf4 {
-    background-color: var(--GC-accent)!important;
+    background-color: rgb(var(--GC-accent))!important;
   }
+
+  // Channel header gradient fix
+  .theme-dark .themed_b152d4 {
+  background: transparent!important;
+}

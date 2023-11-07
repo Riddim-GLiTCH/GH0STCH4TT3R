@@ -17,11 +17,11 @@
     align-items: center;
     order: 1;
     margin-right: auto;
-    color: var(--GC-accent);
+    color: rgb(var(--GC-accent));
 }
 .wordmarkWindows__05c46::after {
     content: "GH0STCH4TT3R";
-    color: var(--GC-accent);
+    color: rgb(var(--GC-accent));
     display: flex;
     width: fit-content;
     font-size: 12px;
@@ -32,7 +32,7 @@
     margin-top: 0;
     padding: 4px;
     height: fit-content;
-    border: 2px solid var(--GC-accent)!important;
+    border: 2px solid rgb(var(--GC-accent))!important;
     background-color: rgba(0, 0, 0, 0.5)!important;
 }
 .typeWindows__5fa63 > .winButton__88672,

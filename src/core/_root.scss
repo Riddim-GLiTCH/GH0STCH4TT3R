@@ -4,8 +4,8 @@
 
 /* THEME SETTINGS */
 :root {
-    --GC-accent:       rgb(0, 255, 255);   /*Default Value: 0, 255, 255. GH0STCH4TT3R's Accent color. Will be applied across the entire theme.*/
-    --GC-accent-muted: rgb(0, 60, 60); /*Default Value: 0, 60, 60. GH0STCH4TT3R's Muted Accent color. Will be applied across the entire theme.*/
+    --GC-accent:       0, 255, 255;   /*Default Value: 0, 255, 255. GH0STCH4TT3R's Accent color. Will be applied across the entire theme.*/
+    --GC-accent-muted: 0, 60, 60; /*Default Value: 0, 60, 60. GH0STCH4TT3R's Muted Accent color. Will be applied across the entire theme.*/
     /* Uncomment this to have the theme use your system's accent color instead. */
     /* --GC-accent:        var(--os-accent-color)!important;
        --GC-accent-muted: rgba($color: var(--os-accent-color), $alpha: 0.5)!important;
