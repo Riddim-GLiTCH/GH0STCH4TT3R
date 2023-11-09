@@ -1,0 +1,33 @@
+// Pin Home Button by DoggyBootsy
+
+[aria-label="Boost this server"] {display: none;}
+
+
+.guilds__2b93a .tree__7a511:focus {
+    outline-color: transparent;
+  }
+  .guilds__2b93a .scroller__3d071 {
+    contain: unset;
+    margin-top: 56px;
+  }
+  .guilds__2b93a .scroller__3d071 .tutorialContainer__890ea {
+    position: fixed;
+    transform: translatey( -140% );
+  }
+
+// Custom Home button by Kraif
+
+#app-mount .guilds__2b93a .tutorialContainer__890ea .listItem_fa7b36:first-child .wrapper_d281dd:before {
+    content: "";
+    border-radius: 50%;
+    position: absolute;
+    background: var(--home-button-image, url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/nMjGYFjTvDyD.png"));
+    background-size: var(--home-button-size, 90%);
+    background-position: var(--home-button-position, center);
+    height: 100%;
+    width: 100%;
+    transition: 0.2s ease;
+  }
+  .homeIcon__00b1b, .tutorialContainer__890ea .childWrapper__01b9c {
+      display: none;
+  }
