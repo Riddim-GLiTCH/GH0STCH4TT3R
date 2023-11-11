@@ -1,3 +1,4 @@
 // This will be the left sidebar.
 // This means: channel list, dms, user area, currently playing, ect...
-@use './sidebarGeneral'
+@use './sidebarGeneral';
+@use "./UserArea";
