@@ -1,59 +1,62 @@
+/* Move the user area to the top right*/
+#app-mount .children__32014:after {
+    display: none;
+  }
+  /* Status picker Settings */
+  .avatar_f8541f {
+    position: relative;
+    left: 2px;
+  }
+  .nameTag__0e320 {
+    margin-left: 5px;
+  }
+  .container_ca50b9 {
+    background: var(--background-primary);
+    border-radius: 0 0 0 18px;
+    right: 0;
+    top: 0;
+    position: absolute;
+    width: 335px;
+  }
+  .iconWrapper_af9215[aria-label="Help"] {
+    display: none;
+  }
+  
+  .membersWrap__90226, .searchResultsWrap__9f374, .profilePanel__12596 {
+    border-top: 1px rgb(var(--gc-accent))!important;
+      padding-top: 48px;
+      width: 350px!important;
+  }
+  
+  /*Hide User Buttons untill hover, By Axo*/
+  .panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
+    opacity: 0% !important;
+    width: 0px;
+    transition: all 0.2s ease-in-out;
+}
+.panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
+    opacity: 100% !important;
+    width: 32px;
+}
 .container_ca50b9 {
-    height: auto !important;
-    padding: 6px 6px;
-    flex-direction: column;
-    align-items: stretch;
-    row-gap: 0px;
-}
-
-.container_ca50b9 > div {
-    width: 100%;
-}
-
-.container_ca50b9 > div:nth-child(2) {
     justify-content: space-between;
-    max-height: 0;
-    overflow: hidden;
-    transition-property: max-height;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
 }
-
-.container_ca50b9:hover > div:nth-child(2) {
-    max-height: 32px;
-}
-
-.container_ca50b9 > div:nth-child(2) > button {
-    width: 100%;
-}
-.container_d667ff > div:nth-child(2) {
-    justify-content: space-between;
-    max-height: 0;
-    overflow: hidden;
-    transition-property: max-height;
-    transition-duration: 0.1s;
-    transition-timing-function: ease-in-out;
-}
-.dot__67e1c {
+.scrollerInner__059a5 > :where(li + div:has(+ div), .groupStart__56db5:has(.blockedSystemMessage_e58a4c)){
     display: none;
 }
-.container_d667ff:hover > div:nth-child(2) {
-    max-height: 32px;
+
+/*Fix members list looking hella cursed*/
+.members__9f47b, .memberInner_a32223, .hiddenMembers__48fe9 {
+    width: 355px!important;
+}
+.membersWrap__90226 {
+  min-width: 355;
+  display: flex;
+  position: relative;
+  max-height: 100%;
 }
 
-.container_d667ff > div:nth-child(2) > button {
-    width: 100%;
-    scale: 1.5;
-}
-/*User Panel*/
-.withTagAsButton_cc125f,
-.withTagless__98b7d {
-    min-width: 212px !important;
-}
-.container_ca50b9 button {
-    margin: 1.1px;
-    background: var(--bg-overlay-4, var(--background-primary));
-}
-.contents_fb6220 {
-    padding-right: 7px;
+/*thread Title bar Fix*/
+.container__11d72:not(.title_b7d661) {
+  padding-right: 355px;
 }
