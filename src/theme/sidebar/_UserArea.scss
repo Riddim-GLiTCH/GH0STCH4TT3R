@@ -11,23 +11,27 @@
     margin-left: 5px;
   }
   .container_ca50b9 {
-    background: var(--background-primary);
-    border-radius: 0 0 0 18px;
+    background-color: rgba($color: #000000, $alpha: .5)!important;
+    border-radius: 0 0 0 0px;
     right: 0;
     top: 0;
     position: absolute;
-    width: 335px;
+    width: 339px;
   }
   .iconWrapper_af9215[aria-label="Help"] {
     display: none;
   }
   
-  .membersWrap__90226, .searchResultsWrap__9f374, .profilePanel__12596 {
+ .searchResultsWrap__9f374, .profilePanel__12596 {
     border-top: 1px rgb(var(--gc-accent))!important;
       padding-top: 48px;
       width: 350px!important;
   }
   
+  .members__9f47b{
+    max-height: calc(100% - 48px);
+    margin-top: 48px;
+}
   /*Hide User Buttons untill hover, By Axo*/
   .panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
     opacity: 0% !important;
@@ -50,7 +54,7 @@
     width: 355px!important;
 }
 .membersWrap__90226 {
-  min-width: 355;
+  min-width: 355px;
   display: flex;
   position: relative;
   max-height: 100%;
@@ -60,3 +64,4 @@
 .container__11d72:not(.title_b7d661) {
   padding-right: 355px;
 }
+

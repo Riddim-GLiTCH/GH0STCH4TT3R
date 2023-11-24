@@ -3,10 +3,12 @@
 }
 
 /*! consistent top bar - extends member list !*/
-.chat__52833:has(.container_b2ce9c, .membersWrap__90226) .container__11d72 {
-    max-width: calc(100% - 345px);
+.chat__52833 .container__11d72 {
+    max-width: calc(100% - 350px);
     position: absolute;
-    border-radius: 0 0 0 0
+    border-radius: 0 0 0 0;
+    background-color: rgba($color: #000000, $alpha: .5)!important;
+    border-bottom: 1px rgb(var(--GC-accent))!important;
   }
   
   .chat__52833:has(.profilePanel__12596) .container__11d72 {
