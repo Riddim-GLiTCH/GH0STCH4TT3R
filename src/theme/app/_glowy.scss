@@ -1,9 +1,18 @@
 // Glowy
-.mask__1979f, .svg_f5b652, .emojiContainer__4a804, .iconWrapper_af9215,
-.contents_fb6220, .search__07df0, .favoriteIcon_b001ac, .invisible-typing-button,
-.iconContainer__3f9b0, .iconContainer__829e7 {
-    filter: drop-shadow(0px 0px 5px currentColor);
+.mask__1979f,
+.svg_f5b652,
+.emojiContainer__4a804,
+.iconWrapper_af9215,
+.contents_fb6220,
+.search__07df0,
+.favoriteIcon_b001ac,
+.invisible-typing-button,
+.iconContainer__3f9b0,
+.iconContainer__829e7 {
+  filter: drop-shadow(0px 0px 5px currentColor);
 }
-.clickable_d23a1a *, .icon_f50f05, .app_de4237 * {
-    color: rgb(var(--GC-accent));
+.clickable_d23a1a *,
+.icon_f50f05,
+.app_de4237 * {
+  color: rgb(var(--GC-accent));
 }

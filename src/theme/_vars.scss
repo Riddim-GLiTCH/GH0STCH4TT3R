@@ -1,23 +1,22 @@
 // imports
-@import url('https://fonts.googleapis.com/css2?family=Iceland&family=Syne+Mono&display=swap');
-@import url('https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css');
-
+@import url("https://fonts.googleapis.com/css2?family=Iceland&family=Syne+Mono&display=swap");
+@import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
 
 // Twemoji Everywhere Patch by Vendicated.
 @font-face {
-    font-family: "TwemojiColor";
-    src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
+  font-family: "TwemojiColor";
+  src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
 }
 :root {
-	// Theme Version
-	--theme-version: '0.0.1';
+  // Theme Version
+  --theme-version: "0.0.1";
 
-    // fonts
-    --font-primary:  "Iceland", sans-serif,  "TwemojiColor"!important;
-    --font-display:  "Iceland", sans-serif,  "TwemojiColor"!important;
-    --font-headline: "Iceland", sans-serif,  "TwemojiColor"!important;
-    --font-code:     "Syne Mono", monospace, "TwemojiColor"!important;
+  // fonts
+  --font-primary: "Iceland", sans-serif, "TwemojiColor" !important;
+  --font-display: "Iceland", sans-serif, "TwemojiColor" !important;
+  --font-headline: "Iceland", sans-serif, "TwemojiColor" !important;
+  --font-code: "Syne Mono", monospace, "TwemojiColor" !important;
 
-    // Discord vars
-    --status-danger: none;
+  // Discord vars
+  --status-danger: none;
 }

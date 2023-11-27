@@ -1,65 +1,69 @@
 .container_de798d {
-    color: rgb(var(--GC-accent));
+  color: rgb(var(--GC-accent));
 }
 
 /*! consistent top bar - extends member list !*/
 .chat__52833 .container__11d72 {
-    max-width: calc(100% - 350px);
-    position: absolute;
-    border-radius: 0 0 0 0;
-    background-color: rgba($color: #000000, $alpha: .5)!important;
-    border-bottom: 1px rgb(var(--GC-accent))!important;
-  }
-  
-  .chat__52833:has(.profilePanel__12596) .container__11d72 {
-    max-width: calc(100% - 340px);
-    position: absolute;
-    border-radius: 0 0 0 0
-  }
-  
-  .chat__52833:has(.searchResultsWrap__9f374) .container__11d72 {
-    max-width: calc(100% - 345px);
-    position: absolute;
-    border-radius: 0 0 0 0;
-    background-color: var(--background-primary)!important;
-  }
-  
-  .chat__52833:has(.container_b2ce9c, .membersWrap__90226, .profilePanel__12596) .chatContent__5dca8,
-  .grid-21dB-S,
-  .list-3FIpnh {
-    margin-top: 48px;
-    border-radius: 0 0 0 0
-  }
-  
-  .searchHeader__19d87 {
-    height: 48px
-  }
-  
-  .container__037ed .sidebar_ded4b5 {
-    border-radius: 0 0 0 0
-  }
-  
-  .content__1a4fe::before {
-    display: none
-  }
-  // Iconify the Search bar - Snippet by Kaestral
-.iconContainer__8fa9c, .icon_f50f05 {
-    width: 24px;
-    height: 24px;
-  }
-  
-  .searchBar_e0c60b {
-    width: 24px;
-    height: 24px;
-    padding: 0;
-  }
+  max-width: calc(100% - 350px);
+  position: absolute;
+  border-radius: 0 0 0 0;
+  background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  border-bottom: 1px rgb(var(--GC-accent)) !important;
+}
 
-  .focused_ddee54 .searchBar_e0c60b, .open_d3ab4e .searchBar_e0c60b, .searchBar_e0c60b:hover {
-    width: 150px;
-    height: 25px;
-  }
+.chat__52833:has(.profilePanel__12596) .container__11d72 {
+  max-width: calc(100% - 340px);
+  position: absolute;
+  border-radius: 0 0 0 0;
+}
 
-  
- .item_f9d377, .unread__48cf4 {
-    background-color: rgb(var(--GC-accent))!important;
-  }
+.chat__52833:has(.searchResultsWrap__9f374) .container__11d72 {
+  max-width: calc(100% - 345px);
+  position: absolute;
+  border-radius: 0 0 0 0;
+  background-color: var(--background-primary) !important;
+}
+
+.chat__52833:has(.container_b2ce9c, .membersWrap__90226, .profilePanel__12596)
+  .chatContent__5dca8,
+.grid-21dB-S,
+.list-3FIpnh {
+  margin-top: 48px;
+  border-radius: 0 0 0 0;
+}
+
+.searchHeader__19d87 {
+  height: 48px;
+}
+
+.container__037ed .sidebar_ded4b5 {
+  border-radius: 0 0 0 0;
+}
+
+.content__1a4fe::before {
+  display: none;
+}
+// Iconify the Search bar - Snippet by Kaestral
+.iconContainer__8fa9c,
+.icon_f50f05 {
+  width: 24px;
+  height: 24px;
+}
+
+.searchBar_e0c60b {
+  width: 24px;
+  height: 24px;
+  padding: 0;
+}
+
+.focused_ddee54 .searchBar_e0c60b,
+.open_d3ab4e .searchBar_e0c60b,
+.searchBar_e0c60b:hover {
+  width: 150px;
+  height: 25px;
+}
+
+.item_f9d377,
+.unread__48cf4 {
+  background-color: rgb(var(--GC-accent)) !important;
+}
