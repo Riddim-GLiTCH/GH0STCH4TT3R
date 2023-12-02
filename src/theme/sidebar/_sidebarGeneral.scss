@@ -8,9 +8,10 @@
   position: absolute;
   border-radius: 0 0 0 0;
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
-  border-bottom: 1px rgb(var(--GC-accent)) !important;
 }
-
+.header__104ca {
+  background-color: rgba($color: #000000, $alpha: 0.5) !important;
+}
 .chat__52833:has(.profilePanel__12596) .container__11d72 {
   max-width: calc(100% - 340px);
   position: absolute;

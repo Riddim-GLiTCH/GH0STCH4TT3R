@@ -12,13 +12,17 @@ body,
 .bg__12180,
 .container__7590f,
 .container__10dc7,
-.header__60bef {
-  background: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/VoNiHodKIxJv.png");
+.header__60bef,
+.callContainer_cbde45 {
+  background: transparent;
+}
+body {
+  background: var(--wallpaper);
   background-position: center;
   background-size: cover;
 }
 .container__11d72 {
-  background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  background-color: rgba($color: #000000, $alpha: 0) !important;
 }
 :root {
   --background-primary: transparent;
