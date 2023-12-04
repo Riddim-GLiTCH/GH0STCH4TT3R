@@ -466,6 +466,10 @@ body {
   filter: drop-shadow(5px 5px 1px rgba(var(--GC-accent-muted), 0.2));
 }
 
+.container_b181b6 {
+  background-color: transparent !important;
+}
+
 .container_de798d {
   color: rgb(var(--GC-accent));
 }
@@ -536,6 +540,13 @@ body {
 .item_f9d377,
 .unread__48cf4 {
   background-color: rgb(var(--GC-accent)) !important;
+}
+
+.tooltip__01384 {
+  background-image: var(--wallpaper) !important;
+  background-position: top;
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /* Move the user area to the top right*/
