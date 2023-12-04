@@ -1,15 +1,134 @@
 @import url("https://fonts.googleapis.com/css2?family=Iceland&family=Syne+Mono&display=swap");
 @import url("https://discordstyles.github.io/HorizontalServerList/dist/HorizontalServerList.css");
+@import url("https://dablulite.github.io/css-snippets/NoLightInDark/import.css");
 @font-face {
   font-family: "TwemojiColor";
   src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
 }
 :root {
-  --theme-version: "0.5.0";
+  --theme-version: "1.0.0";
   --font-primary: "Iceland", sans-serif, "TwemojiColor" !important;
   --font-display: "Iceland", sans-serif, "TwemojiColor" !important;
   --font-headline: "Iceland", sans-serif, "TwemojiColor" !important;
   --font-code: "Syne Mono", monospace, "TwemojiColor" !important;
+  --activity-card-background: var(--primary-830) !important;
+  --android-navigation-bar-background: var(--primary-830) !important;
+  --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5) !important;
+  --android-ripple: hsl(var(--white-500-hsl)/0.07) !important;
+  --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
+  --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
+  --button-outline-brand-text: var(--white-500) !important;
+  --button-outline-brand-text-active: var(--white-500) !important;
+  --button-outline-brand-text-hover: var(--white-500) !important;
+  --button-outline-danger-background: hsl(var(--white-500-hsl)/0) !important;
+  --button-outline-danger-background-active: var(--red-460) !important;
+  --button-outline-danger-background-hover: var(--red-430) !important;
+  --button-outline-danger-border: var(--red-400) !important;
+  --button-outline-danger-border-active: var(--red-430) !important;
+  --button-outline-danger-border-hover: var(--red-430) !important;
+  --button-outline-danger-text: var(--white-500) !important;
+  --button-outline-danger-text-active: var(--white-500) !important;
+  --button-outline-danger-text-hover: var(--white-500) !important;
+  --button-outline-positive-background: hsl(var(--white-500-hsl)/0) !important;
+  --button-outline-positive-text: var(--white-500) !important;
+  --button-outline-positive-text-active: var(--white-500) !important;
+  --button-outline-positive-text-hover: var(--white-500) !important;
+  --button-outline-primary-background: var(--primary-700) !important;
+  --button-outline-primary-background-active: var(--primary-600) !important;
+  --button-outline-primary-background-hover: var(--primary-630) !important;
+  --button-outline-primary-border: var(--primary-700) !important;
+  --button-outline-primary-border-active: var(--primary-600) !important;
+  --button-outline-primary-border-hover: var(--primary-630) !important;
+  --button-outline-primary-text: var(--white-500) !important;
+  --button-outline-primary-text-active: var(--white-500) !important;
+  --button-outline-primary-text-hover: var(--white-500) !important;
+  --button-secondary-background: var(--primary-700) !important;
+  --button-secondary-background-active: var(--primary-600) !important;
+  --button-secondary-background-disabled: var(--primary-700) !important;
+  --button-secondary-background-hover: var(--primary-630) !important;
+  --channel-icon: var(--primary-400) !important;
+  --channel-text-area-placeholder: var(--primary-400) !important;
+  --channels-default: var(--primary-360) !important;
+  --channeltextarea-background: var(--primary-830) !important;
+  --chat-background: var(--black-500) !important;
+  --chat-border: var(--primary-700) !important;
+  --chat-input-container-background: var(--primary-600) !important;
+  --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;
+  --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
+  --deprecated-quickswitcher-input-background: var(--primary-400) !important;
+  --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
+  --deprecated-store-bg: var(--primary-600) !important;
+  --deprecated-text-input-bg: var(--primary-700) !important;
+  --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
+  --deprecated-text-input-border-disabled: var(--primary-700) !important;
+  --deprecated-text-input-border-hover: var(--primary-900) !important;
+  --deprecated-text-input-prefix: var(--primary-200) !important;
+  --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
+  --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8) !important;
+  --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
+  --header-primary: var(--primary-130) !important;
+  --header-secondary: var(--primary-345) !important;
+  --home-background: var(--primary-760) !important;
+  --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
+  --info-danger-text: var(--white-500) !important;
+  --info-help-text: var(--white-500) !important;
+  --info-positive-text: var(--white-500) !important;
+  --info-warning-text: var(--white-500) !important;
+  --input-background: var(--primary-800) !important;
+  --input-placeholder-text: var(--input-placeholder-text-dark) !important;
+  --interactive-active: var(--primary-130) !important;
+  --interactive-hover: var(--primary-230) !important;
+  --interactive-muted: var(--primary-500) !important;
+  --interactive-normal: var(--primary-345) !important;
+  --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6) !important;
+  --logo-primary: var(--white-500) !important;
+  --mention-background: hsl(var(--brand-500-hsl)/0.3) !important;
+  --modal-background: var(--primary-860) !important;
+  --modal-footer-background: var(--primary-900) !important;
+  --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48) !important;
+  --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3) !important;
+  --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6) !important;
+  --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8) !important;
+  --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16) !important;
+  --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;
+  --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;
+  --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--primary-700) !important;
+  --scrollbar-auto-scrollbar-color-track: var(--primary-630) !important;
+  --scrollbar-auto-thumb: var(--primary-600) !important;
+  --scrollbar-auto-track: var(--primary-860) !important;
+  --scrollbar-thin-thumb: var(--primary-700) !important;
+  --scrollbar-thin-track: hsl(var(--black-500-hsl)/0) !important;
+  --spoiler-hidden-background: var(--primary-700) !important;
+  --spoiler-revealed-background: var(--primary-660) !important;
+  --status-danger-text: var(--white-500) !important;
+  --status-positive-text: var(--white-500) !important;
+  --status-warning-text: var(--black-500) !important;
+  --text-muted: var(--primary-345) !important;
+  --text-normal: var(--primary-300) !important;
+  --textbox-markdown-syntax: var(--primary-360) !important;
+  --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
+  --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
+  --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
+  --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
+  --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.24) !important;
+  --profile-gradient-primary-color: var(--background-floating);
+  --profile-gradient-secondary-color: var(--background-floating);
+  --profile-gradient-overlay-color: transparent;
+  --profile-gradient-button-color: var(--button-secondary-background);
+  --profile-avatar-border-color: var(--background-floating);
+  --profile-message-input-border-color: var(--background-modifier-accent);
+  --profile-body-background-color: var(--background-primary);
+  --profile-body-background-hover: var(--background-modifier-hover);
+  --profile-body-divider-color: var(--background-modifier-accent);
+  --profile-role-pill-background-color: var(--background-floating);
+  --profile-role-pill-border-color: var(--interactive-normal);
+  --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
+  --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
+  --home-background: var(--primary-900) !important;
+  --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
+  --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
+  --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
   --wallpaper: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/VoNiHodKIxJv.png");
 }
 
@@ -110,7 +229,7 @@ body {
 }
 
 .clickable_d866f1 {
-  border-radius: 10px !important;
+  border-radius: 0px !important;
 }
 
 .wrapper__3af0b,
@@ -145,10 +264,14 @@ body {
   filter: drop-shadow(0px 0px 5px currentColor);
 }
 
-.clickable_d23a1a *,
+.clickable_d23a1a,
 .icon_f50f05,
 .app_de4237 * {
-  color: rgb(var(--GC-accent));
+  color: rgb(var(--GC-accent)) !important;
+}
+
+.attachButtonPlus_bf89ca, .sprite__294b3 {
+  fill: rgb(var(--GC-accent)) !important;
 }
 
 [aria-label="Boost this server"] {
@@ -173,9 +296,9 @@ body {
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(--home-button-image, url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/lxfsxooRoykJ.png"));
+  background: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/lxfsxooRoykJ.png");
   background-size: contain;
-  background-position: var(--home-button-position, center);
+  background-position: center;
   height: 100%;
   width: 100%;
   transition: 0.2s ease;
@@ -184,6 +307,29 @@ body {
 .homeIcon__00b1b,
 .tutorialContainer__890ea .childWrapper__01b9c {
   display: none;
+}
+
+.theme-light .base__3e6af::before {
+  z-index: 101;
+  position: relative;
+  text-align: center;
+  content: "⚠️ Warning! GH0STCH4TT3R was designed exclusively for the Dark theme. It will NOT function correctly in the Light theme. Please go to your settings menu > Appearance and enable the Dark theme. ⚠️";
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 36px;
+  padding-left: 0px;
+  padding-right: 0px;
+  border-radius: 0 !important;
+  flex-grow: 0;
+  flex-shrink: 0;
+  box-shadow: red;
+  color: rgb(var(--GC-accent));
+  background-color: red;
+  text-shadow: 0 0 5px rgb(var(--GC-accent));
+}
+.theme-light .base__3e6af .notice__5fd4c,
+.theme-light .base__3e6af .sidebar_ded4b5 {
+  border-radius: 0 !important;
 }
 
 .header__39b23 {
@@ -399,7 +545,11 @@ body {
 .channelTextArea__56a36 {
   border: 1px solid rgb(var(--GC-accent)) !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
-  border-radius: 30px;
+  border-radius: 10px;
+}
+
+.scrollableContainer__33e06, .bioTextArea_a108c9 {
+  background-color: transparent !important;
 }
 
 [class*=newMessagesBar] {
@@ -476,7 +626,9 @@ body {
 
 /*! consistent top bar - extends member list !*/
 .chat__52833 .container__11d72 {
-  max-width: calc(100% - 350px);
+  max-width: calc(100% - 355px);
+  height: 50px;
+  border: 1px solid rgb(var(--GC-accent)) !important;
   position: absolute;
   border-radius: 0 0 0 0;
   background-color: rgba(0, 0, 0, 0.5) !important;
@@ -484,6 +636,8 @@ body {
 
 .header__104ca {
   background-color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid rgb(var(--GC-accent)) !important;
+  width: 245px;
 }
 
 .chat__52833:has(.profilePanel__12596) .container__11d72 {
@@ -545,7 +699,7 @@ body {
 .tooltip__01384 {
   background-image: var(--wallpaper) !important;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -570,17 +724,17 @@ body {
 
 .container_ca50b9 {
   background-color: rgba(0, 0, 0, 0.5) !important;
+  border: 1px solid rgb(var(--GC-accent)) !important;
   border-radius: 0 0 0 0px;
   right: 0;
   top: 0;
   height: 48px;
   position: absolute;
-  width: 334px;
+  width: 338px;
 }
 
 [class^=sidebar_] [class^=panels_] {
-  z-index: 99999999;
-  border: 1px solid var(--background-modifier-accent);
+  z-index: 999;
 }
 
 .iconWrapper_af9215[aria-label=Help] {
@@ -589,7 +743,7 @@ body {
 
 .searchResultsWrap__9f374,
 .profilePanel__12596 {
-  border-top: 1px rgb(var(--gc-accent)) !important;
+  border-top: 1px solid rgb(var(--GC-accent)) !important;
   padding-top: 48px;
   width: 350px !important;
 }
@@ -657,6 +811,10 @@ body {
   animation: pulse 3s infinite;
 }
 
+.unread__48cf4 {
+  animation: minipulse 3s infinite;
+}
+
 @keyframes pulse {
   0% {
     transform: scale(0.85);
@@ -665,6 +823,20 @@ body {
   70% {
     transform: scale(0.95);
     box-shadow: 0 0 0 10px rgba(255, 0, 0, 0);
+  }
+  100% {
+    transform: scale(0.85);
+    box-shadow: 0 0 0 0 rgba(255, 0, 0, 0);
+  }
+}
+@keyframes minipulse {
+  0% {
+    transform: scale(0.85);
+    box-shadow: 0 0 0 0 rgba(var(--GC-accent), 1);
+  }
+  70% {
+    transform: scale(0.95);
+    box-shadow: 0 0 0 5px rgba(255, 0, 0, 0);
   }
   100% {
     transform: scale(0.85);
@@ -1082,7 +1254,12 @@ img[class*=emoji_] {
   padding: 6px 8px;
   margin: -10px;
   line-clamp: 5px;
-  background-color: black;
+  background-image: var(--wallpaper);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  -webkit-backdrop-filter: brightness(50%) !important;
+          backdrop-filter: brightness(50%) !important;
   text-shadow: 0 0 5px currentColor;
   /*  clip-path: polygon(0 10px,
             10px 0,
@@ -1095,14 +1272,17 @@ img[class*=emoji_] {
             0% 10px) !important; */
 }
 
-.label__73cb9,
-.item__183e8 {
+.colorDefault__0b482 {
   color: rgb(var(--GC-accent));
-  filter: drop-shadow(0 0 5px rgba(var(--GC-accent), 0.5));
 }
 
-.colorDanger_eec36d {
+.label__73cb9 {
+  filter: drop-shadow(0 0 5px currentColor, 0.5);
+}
+
+.labelContainer_bc2861.colorDanger_eec36d {
   color: red !important;
+  filter: drop-shadow(0 0 5px red, 0.5) !important;
 }
 
 .item__183e8 {
@@ -1111,7 +1291,12 @@ img[class*=emoji_] {
   min-height: 12px;
 }
 
-.modalRoot__83618 {
-  overflow: visible;
-  background-color: black;
+#app-mount .info__755e1 .line__75801:first-child:after {
+  content: "GH0STCH4TT3R v" var(--theme-version);
+  display: block;
+}
+
+#app-mount .info__755e1 .line__75801:nth-last-child(3):before {
+  content: "by Riddim_GLiTCH";
+  display: block;
 }
