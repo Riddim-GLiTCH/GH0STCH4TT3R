@@ -15,24 +15,25 @@
 }
 .container_ca50b9 {
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  border: 1px solid rgb(var(--GC-accent))!important;
   border-radius: 0 0 0 0px;
   right: 0;
   top: 0;
   height: 48px;
   position: absolute;
-  width: 334px;
+  width: 338px;
+
 }
 [class^="sidebar_"] [class^="panels_"] {
-  z-index: 99999999;
-  border: 1px solid var(--background-modifier-accent);
-}
+  z-index: 999;
+  }
 .iconWrapper_af9215[aria-label="Help"] {
   display: none;
 }
 
 .searchResultsWrap__9f374,
 .profilePanel__12596 {
-  border-top: 1px rgb(var(--gc-accent)) !important;
+  border-top: 1px solid rgb(var(--GC-accent)) !important;
   padding-top: 48px;
   width: 350px !important;
 }

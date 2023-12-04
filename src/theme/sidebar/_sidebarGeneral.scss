@@ -4,13 +4,17 @@
 
 /*! consistent top bar - extends member list !*/
 .chat__52833 .container__11d72 {
-  max-width: calc(100% - 350px);
+  max-width: calc(100% - 355px);
+  height: 50px;
+  border: 1px solid rgb(var(--GC-accent))!important;
   position: absolute;
   border-radius: 0 0 0 0;
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
 }
 .header__104ca {
   background-color: rgba($color: #000000, $alpha: 0.5) !important;
+  border: 1px solid rgb(var(--GC-accent))!important;
+  width: 245px;
 }
 .chat__52833:has(.profilePanel__12596) .container__11d72 {
   max-width: calc(100% - 340px);
@@ -74,8 +78,7 @@
 .tooltip__01384 {
   background-image: var(--wallpaper)!important;
   background-position: top;
-  background-size: contain;
+  background-size: cover;
   background-repeat: no-repeat;
-
 }
   

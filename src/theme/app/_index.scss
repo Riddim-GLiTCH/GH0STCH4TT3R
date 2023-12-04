@@ -5,3 +5,33 @@
 @use "./squarcleevrything";
 @use "./glowy";
 @use "./homeButton";
+
+
+
+// Warn users in light mode, Notice based on Amoledcord's implementation
+.theme-light {
+    .base__3e6af {
+        &::before {
+            z-index: 101;
+            position: relative;
+            text-align: center;
+            content: '⚠️ Warning! GH0STCH4TT3R was designed exclusively for the Dark theme. It will NOT function correctly in the Light theme. Please go to your settings menu > Appearance and enable the Dark theme. ⚠️';
+            font-size: 20px;
+            font-weight: 800;
+            line-height: 36px;
+            padding-left: 0px;
+            padding-right: 0px;
+            border-radius: 0!important;
+            flex-grow: 0;
+            flex-shrink: 0;
+            box-shadow: red;
+            color: rgb(var(--GC-accent));
+            background-color: red;
+            text-shadow: 0 0 5px rgb(var(--GC-accent))
+        }
+        .notice__5fd4c,
+        .sidebar_ded4b5 {
+            border-radius: 0!important;
+        }
+    }
+}

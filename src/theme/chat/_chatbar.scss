@@ -2,9 +2,11 @@
 .channelTextArea__56a36 {
   border: 1px solid rgb(var(--GC-accent)) !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
-  border-radius: 30px;
+  border-radius: 10px;
 }
-
+.scrollableContainer__33e06, .bioTextArea_a108c9 {
+  background-color: transparent!important;
+}
 // Better Jump To Present Button - Snippet by Imicro
 [class*="newMessagesBar"] {
   display: contents;

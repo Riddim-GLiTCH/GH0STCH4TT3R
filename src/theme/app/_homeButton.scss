@@ -26,12 +26,9 @@
   content: "";
   border-radius: 50%;
   position: absolute;
-  background: var(
-    --home-button-image,
-    url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/lxfsxooRoykJ.png")
-  );
+  background: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/lxfsxooRoykJ.png");
   background-size: contain;
-  background-position: var(--home-button-position, center);
+  background-position: center;
   height: 100%;
   width: 100%;
   transition: 0.2s ease;

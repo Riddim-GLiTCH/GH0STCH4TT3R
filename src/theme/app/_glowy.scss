@@ -11,8 +11,11 @@
 .iconContainer__829e7 {
   filter: drop-shadow(0px 0px 5px currentColor);
 }
-.clickable_d23a1a *,
+.clickable_d23a1a,
 .icon_f50f05,
 .app_de4237 * {
-  color: rgb(var(--GC-accent));
+  color: rgb(var(--GC-accent))!important;
+}
+.attachButtonPlus_bf89ca, .sprite__294b3 {
+  fill: rgb(var(--GC-accent))!important;
 }
