@@ -7,6 +7,7 @@
   font-family: "TwemojiColor";
   src: url("https://vendicated.github.io/random-files/Twemoji.Mozilla.ttf");
 }
+
 :root {
   // Theme Version
   --theme-version: "1.0.0";
@@ -18,130 +19,166 @@
   --font-code: "Syne Mono", monospace, "TwemojiColor" !important;
 
   // Discord Color Vars
-    --activity-card-background: var(--primary-830) !important;
-    --android-navigation-bar-background: var(--primary-830) !important;
-    --android-navigation-scrim-background: hsl(var(--primary-830-hsl)/0.5) !important;
-    --android-ripple: hsl(var(--white-500-hsl)/0.07) !important;
-    --bug-reporter-modal-submitting-background: hsl(var(--primary-800-hsl)/0.6) !important;
-    --button-outline-brand-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-brand-text: var(--white-500) !important;
-    --button-outline-brand-text-active: var(--white-500) !important;
-    --button-outline-brand-text-hover: var(--white-500) !important;
-    --button-outline-danger-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-danger-background-active: var(--red-460) !important;
-    --button-outline-danger-background-hover: var(--red-430) !important;
-    --button-outline-danger-border: var(--red-400) !important;
-    --button-outline-danger-border-active: var(--red-430) !important;
-    --button-outline-danger-border-hover: var(--red-430) !important;
-    --button-outline-danger-text: var(--white-500) !important;
-    --button-outline-danger-text-active: var(--white-500) !important;
-    --button-outline-danger-text-hover: var(--white-500) !important;
-    --button-outline-positive-background: hsl(var(--white-500-hsl)/0) !important;
-    --button-outline-positive-text: var(--white-500) !important;
-    --button-outline-positive-text-active: var(--white-500) !important;
-    --button-outline-positive-text-hover: var(--white-500) !important;
+  --activity-card-background: var(--primary-830) !important;
+  --android-navigation-bar-background: var(--primary-830) !important;
+  --android-navigation-scrim-background: hsl(
+    var(--primary-830-hsl) / 0.5
+  ) !important;
+  --android-ripple: hsl(var(--white-500-hsl) / 0.07) !important;
+  --bug-reporter-modal-submitting-background: hsl(
+    var(--primary-800-hsl) / 0.6
+  ) !important;
+  --button-outline-brand-background: hsl(var(--white-500-hsl) / 0) !important;
+  --button-outline-brand-text: var(--white-500) !important;
+  --button-outline-brand-text-active: var(--white-500) !important;
+  --button-outline-brand-text-hover: var(--white-500) !important;
+  --button-outline-danger-background: hsl(var(--white-500-hsl) / 0) !important;
+  --button-outline-danger-background-active: var(--red-460) !important;
+  --button-outline-danger-background-hover: var(--red-430) !important;
+  --button-outline-danger-border: var(--red-400) !important;
+  --button-outline-danger-border-active: var(--red-430) !important;
+  --button-outline-danger-border-hover: var(--red-430) !important;
+  --button-outline-danger-text: var(--white-500) !important;
+  --button-outline-danger-text-active: var(--white-500) !important;
+  --button-outline-danger-text-hover: var(--white-500) !important;
+  --button-outline-positive-background: hsl(
+    var(--white-500-hsl) / 0
+  ) !important;
+  --button-outline-positive-text: var(--white-500) !important;
+  --button-outline-positive-text-active: var(--white-500) !important;
+  --button-outline-positive-text-hover: var(--white-500) !important;
 
-    --button-outline-primary-background: var(--primary-700) !important;
-    --button-outline-primary-background-active: var(--primary-600) !important;
-    --button-outline-primary-background-hover: var(--primary-630) !important;
-    --button-outline-primary-border: var(--primary-700) !important;
-    --button-outline-primary-border-active: var(--primary-600) !important;
-    --button-outline-primary-border-hover: var(--primary-630) !important;
-    --button-outline-primary-text: var(--white-500) !important;
-    --button-outline-primary-text-active: var(--white-500) !important;
-    --button-outline-primary-text-hover: var(--white-500) !important;
-    
-    --button-secondary-background: var(--primary-700) !important;
-    --button-secondary-background-active: var(--primary-600) !important;
-    --button-secondary-background-disabled: var(--primary-700) !important;
-    --button-secondary-background-hover: var(--primary-630) !important;
-    --channel-icon: var(--primary-400) !important;
-    --channel-text-area-placeholder: var(--primary-400) !important;
-    --channels-default: var(--primary-360) !important;
-    --channeltextarea-background: var(--primary-830) !important;
-    --chat-background: var(--black-500) !important;
-    --chat-border: var(--primary-700) !important;
-    --chat-input-container-background: var(--primary-600) !important;
-    --deprecated-card-bg: hsl(var(--primary-700-hsl)/0.6) !important;
-    --deprecated-card-editable-bg: hsl(var(--primary-700-hsl)/0.3) !important;
-    --deprecated-quickswitcher-input-background: var(--primary-400) !important;
-    --deprecated-quickswitcher-input-placeholder: hsl(var(--white-500-hsl)/0.3) !important;
-    --deprecated-store-bg: var(--primary-600) !important;
-    --deprecated-text-input-bg: var(--primary-700) !important;
-    --deprecated-text-input-border: hsl(var(--black-500-hsl)/0.3) !important;
-    --deprecated-text-input-border-disabled: var(--primary-700) !important;
-    --deprecated-text-input-border-hover: var(--primary-900) !important;
-    --deprecated-text-input-prefix: var(--primary-200) !important;
-    --display-banner-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
-    --forum-post-extra-media-count-container-background: hsl(var(--primary-660-hsl)/0.8) !important;
-    --forum-post-tag-background: hsl(var(--primary-660-hsl)/0.9) !important;
-    --header-primary: var(--primary-130) !important;
-    --header-secondary: var(--primary-345) !important;
-    --home-background: var(--primary-760) !important;
-    --home-card-resting-border: hsl(var(--transparent-hsl)/0) !important;
-    --info-danger-text: var(--white-500) !important;
-    --info-help-text: var(--white-500) !important;
-    --info-positive-text: var(--white-500) !important;
-    --info-warning-text: var(--white-500) !important;
-    --input-background: var(--primary-800) !important;
-    --input-placeholder-text: var(--input-placeholder-text-dark) !important;
-    --interactive-active: var(--primary-130) !important;
-    --interactive-hover: var(--primary-230) !important;
-    --interactive-muted: var(--primary-500) !important;
-    --interactive-normal: var(--primary-345) !important;
-    --live-stage-tile-border: hsl(var(--primary-500-hsl)/0.6) !important;
-    --logo-primary: var(--white-500) !important;
-    --mention-background: hsl(var(--brand-500-hsl)/0.3) !important;
-    --modal-background: var(--primary-860) !important;
-    --modal-footer-background: var(--primary-900) !important;
-    --profile-gradient-message-input-border: hsl(var(--primary-500-hsl)/0.48) !important;
-    --profile-gradient-note-background: hsl(var(--black-500-hsl)/0.3) !important;
-    --profile-gradient-overlay: hsl(var(--black-500-hsl)/0.6) !important;
-    --profile-gradient-overlay-synced-with-user-theme: hsl(var(--black-500-hsl)/0.8) !important;
-    --profile-gradient-profile-body-background-hover: hsl(var(--white-500-hsl)/0.16) !important;
-    --profile-gradient-role-pill-background: hsl(var(--primary-660-hsl)/0.5) !important;
-    --profile-gradient-role-pill-border: hsl(var(--white-500-hsl)/0.2) !important;
-    --profile-gradient-section-box: hsl(var(--black-500-hsl)/0.45) !important;
-    --scrollbar-auto-scrollbar-color-thumb: var(--primary-700) !important;
-    --scrollbar-auto-scrollbar-color-track: var(--primary-630) !important;
-    --scrollbar-auto-thumb: var(--primary-600) !important;
-    --scrollbar-auto-track: var(--primary-860) !important;
-    --scrollbar-thin-thumb: var(--primary-700) !important;
-    --scrollbar-thin-track: hsl(var(--black-500-hsl)/0) !important;
-    --spoiler-hidden-background: var(--primary-700) !important;
-    --spoiler-revealed-background: var(--primary-660) !important;
-    --status-danger-text: var(--white-500) !important;
-    --status-positive-text: var(--white-500) !important;
-    --status-warning-text: var(--black-500) !important;
-    --text-muted: var(--primary-345) !important;
-    --text-normal: var(--primary-300) !important;
-    --textbox-markdown-syntax: var(--primary-360) !important;
-    --user-profile-header-overflow-background: hsl(var(--primary-700-hsl)/0.5) !important;
-    --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl)/0.15) !important;
-    --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl)/0.2),0 1.5px 0 hsl(var(--primary-600-hsl)/0.05),0 2px 0 hsl(var(--primary-630-hsl)/0.05) !important;
-    --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl)/0.16) !important;
-    --elevation-high: 0 8px 16px hsl(var(--black-500-hsl)/0.24) !important;
+  --button-outline-primary-background: var(--primary-700) !important;
+  --button-outline-primary-background-active: var(--primary-600) !important;
+  --button-outline-primary-background-hover: var(--primary-630) !important;
+  --button-outline-primary-border: var(--primary-700) !important;
+  --button-outline-primary-border-active: var(--primary-600) !important;
+  --button-outline-primary-border-hover: var(--primary-630) !important;
+  --button-outline-primary-text: var(--white-500) !important;
+  --button-outline-primary-text-active: var(--white-500) !important;
+  --button-outline-primary-text-hover: var(--white-500) !important;
 
-    --profile-gradient-primary-color: var(--background-floating);
-    --profile-gradient-secondary-color: var(--background-floating);
-    --profile-gradient-overlay-color: transparent;
-    --profile-gradient-button-color: var(--button-secondary-background);
-    --profile-avatar-border-color: var(--background-floating);
-    --profile-message-input-border-color: var(--background-modifier-accent);
-    --profile-body-background-color: var(--background-primary);
-    --profile-body-background-hover: var(--background-modifier-hover);
-    --profile-body-divider-color: var(--background-modifier-accent);
-    --profile-role-pill-background-color: var(--background-floating);
-    --profile-role-pill-border-color: var(--interactive-normal);
+  --button-secondary-background: var(--primary-700) !important;
+  --button-secondary-background-active: var(--primary-600) !important;
+  --button-secondary-background-disabled: var(--primary-700) !important;
+  --button-secondary-background-hover: var(--primary-630) !important;
+  --channel-icon: var(--primary-400) !important;
+  --channel-text-area-placeholder: var(--primary-400) !important;
+  --channels-default: var(--primary-360) !important;
+  --channeltextarea-background: var(--primary-830) !important;
+  --chat-background: var(--black-500) !important;
+  --chat-border: var(--primary-700) !important;
+  --chat-input-container-background: var(--primary-600) !important;
+  --deprecated-card-bg: hsl(var(--primary-700-hsl) / 0.6) !important;
+  --deprecated-card-editable-bg: hsl(var(--primary-700-hsl) / 0.3) !important;
+  --deprecated-quickswitcher-input-background: var(--primary-400) !important;
+  --deprecated-quickswitcher-input-placeholder: hsl(
+    var(--white-500-hsl) / 0.3
+  ) !important;
+  --deprecated-store-bg: var(--primary-600) !important;
+  --deprecated-text-input-bg: var(--primary-700) !important;
+  --deprecated-text-input-border: hsl(var(--black-500-hsl) / 0.3) !important;
+  --deprecated-text-input-border-disabled: var(--primary-700) !important;
+  --deprecated-text-input-border-hover: var(--primary-900) !important;
+  --deprecated-text-input-prefix: var(--primary-200) !important;
+  --display-banner-overflow-background: hsl(
+    var(--primary-700-hsl) / 0.5
+  ) !important;
+  --forum-post-extra-media-count-container-background: hsl(
+    var(--primary-660-hsl) / 0.8
+  ) !important;
+  --forum-post-tag-background: hsl(var(--primary-660-hsl) / 0.9) !important;
+  --header-primary: var(--primary-130) !important;
+  --header-secondary: var(--primary-345) !important;
+  --home-background: var(--primary-760) !important;
+  --home-card-resting-border: hsl(var(--transparent-hsl) / 0) !important;
+  --info-danger-text: var(--white-500) !important;
+  --info-help-text: var(--white-500) !important;
+  --info-positive-text: var(--white-500) !important;
+  --info-warning-text: var(--white-500) !important;
+  --input-background: var(--primary-800) !important;
+  --input-placeholder-text: var(--input-placeholder-text-dark) !important;
+  --interactive-active: var(--primary-130) !important;
+  --interactive-hover: var(--primary-230) !important;
+  --interactive-muted: var(--primary-500) !important;
+  --interactive-normal: var(--primary-345) !important;
+  --live-stage-tile-border: hsl(var(--primary-500-hsl) / 0.6) !important;
+  --logo-primary: var(--white-500) !important;
+  --mention-background: hsl(var(--brand-500-hsl) / 0.3) !important;
+  --modal-background: var(--primary-860) !important;
+  --modal-footer-background: var(--primary-900) !important;
+  --profile-gradient-message-input-border: hsl(
+    var(--primary-500-hsl) / 0.48
+  ) !important;
+  --profile-gradient-note-background: hsl(
+    var(--black-500-hsl) / 0.3
+  ) !important;
+  --profile-gradient-overlay: hsl(var(--black-500-hsl) / 0.6) !important;
+  --profile-gradient-overlay-synced-with-user-theme: hsl(
+    var(--black-500-hsl) / 0.8
+  ) !important;
+  --profile-gradient-profile-body-background-hover: hsl(
+    var(--white-500-hsl) / 0.16
+  ) !important;
+  --profile-gradient-role-pill-background: hsl(
+    var(--primary-660-hsl) / 0.5
+  ) !important;
+  --profile-gradient-role-pill-border: hsl(
+    var(--white-500-hsl) / 0.2
+  ) !important;
+  --profile-gradient-section-box: hsl(var(--black-500-hsl) / 0.45) !important;
+  --scrollbar-auto-scrollbar-color-thumb: var(--primary-700) !important;
+  --scrollbar-auto-scrollbar-color-track: var(--primary-630) !important;
+  --scrollbar-auto-thumb: var(--primary-600) !important;
+  --scrollbar-auto-track: var(--primary-860) !important;
+  --scrollbar-thin-thumb: var(--primary-700) !important;
+  --scrollbar-thin-track: hsl(var(--black-500-hsl) / 0) !important;
+  --spoiler-hidden-background: var(--primary-700) !important;
+  --spoiler-revealed-background: var(--primary-660) !important;
+  --status-danger-text: var(--white-500) !important;
+  --status-positive-text: var(--white-500) !important;
+  --status-warning-text: var(--black-500) !important;
+  --text-muted: var(--primary-345) !important;
+  --text-normal: var(--primary-300) !important;
+  --textbox-markdown-syntax: var(--primary-360) !important;
+  --user-profile-header-overflow-background: hsl(
+    var(--primary-700-hsl) / 0.5
+  ) !important;
+  --elevation-stroke: 0 0 0 1px hsl(var(--primary-600-hsl) / 0.15) !important;
+  --elevation-low: 0 1px 0 hsl(var(--primary-630-hsl) / 0.2),
+    0 1.5px 0 hsl(var(--primary-600-hsl) / 0.05),
+    0 2px 0 hsl(var(--primary-630-hsl) / 0.05) !important;
+  --elevation-medium: 0 4px 4px hsl(var(--black-500-hsl) / 0.16) !important;
+  --elevation-high: 0 8px 16px hsl(var(--black-500-hsl) / 0.24) !important;
 
-    --search-popout-option-fade: linear-gradient(90deg,hsl(var(--primary-830-hsl)/0),hsl(var(--primary-830-hsl)/1) 80%) !important;
-    --search-popout-option-fade-hover: linear-gradient(90deg,hsl(var(--primary-800-hsl)/0),var(--primary-800) 50%) !important;
+  --profile-gradient-primary-color: var(--background-floating);
+  --profile-gradient-secondary-color: var(--background-floating);
+  --profile-gradient-overlay-color: transparent;
+  --profile-gradient-button-color: var(--button-secondary-background);
+  --profile-avatar-border-color: var(--background-floating);
+  --profile-message-input-border-color: var(--background-modifier-accent);
+  --profile-body-background-color: var(--background-primary);
+  --profile-body-background-hover: var(--background-modifier-hover);
+  --profile-body-divider-color: var(--background-modifier-accent);
+  --profile-role-pill-background-color: var(--background-floating);
+  --profile-role-pill-border-color: var(--interactive-normal);
 
-    --home-background: var(--primary-900) !important;
+  --search-popout-option-fade: linear-gradient(
+    90deg,
+    hsl(var(--primary-830-hsl) / 0),
+    hsl(var(--primary-830-hsl) / 1) 80%
+  ) !important;
+  --search-popout-option-fade-hover: linear-gradient(
+    90deg,
+    hsl(var(--primary-800-hsl) / 0),
+    var(--primary-800) 50%
+  ) !important;
 
-    --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl)/0.3);
-    --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl)/0.2);
-    --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl)/0.6);
+  --home-background: var(--primary-900) !important;
+
+  --dark-elevation-low: 0 1px 5px 0 hsl(var(--black-500-hsl) / 0.3);
+  --dark-elevation-high: 0 2px 10px 0 hsl(var(--black-500-hsl) / 0.2);
+  --dark-elevation-border: 0 0 0 1px hsl(var(--primary-700-hsl) / 0.6);
 
   // image vars (NOTE, THESE MUST BE TURNED INTO SETTINGS AT SOME POINT
   --wallpaper: url("https://Riddim-GLiTCH.hacked-your.tech/content/cdn/VoNiHodKIxJv.png");
