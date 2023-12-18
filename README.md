@@ -2,5 +2,5 @@
 # GH0STCH4TT3R
 ## A Futuristic theme with an edgy style
 
-
+GH0STCH4TT3R is currently in development. Downloads will be available soon!
 
